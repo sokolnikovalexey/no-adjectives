@@ -1,0 +1,58 @@
+html, body, div, ul, li, pre, p, h5, a {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    background: #1e1e1e;
+}
+
+
+ul, ul li {
+    list-style: none;
+}
+
+.page-wrapper {
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.news,
+.categories {
+    padding: 10px;
+}
+
+.categories {
+    padding-bottom: 15px;
+}
+.categories li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.categories li.selected a {
+    color: yellow;
+}
+
+
+.news h5 {
+    margin-bottom: 5px;
+}
+
+.news li {
+    margin-top: 25px;
+}
+
+.news li:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.news p,
+.news a,
+.categories a {
+    font: 14px sans-serif, arial;
+}
