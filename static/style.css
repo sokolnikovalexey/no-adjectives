@@ -10,19 +10,22 @@ html, body {
 }
 
 
-ul, ul li {
-    list-style: none;
+.page-wrapper {
+    height: 100%;
 }
 
-.page-wrapper {
-    max-width: 800px;
-    height: 100%;
-    margin: 0 auto;
+.info-link {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    position: fixed;
+    text-decoration: none;
+    right: 20px;
 }
 
 .news,
 .categories {
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
 }
 
 .categories {
@@ -36,7 +39,6 @@ ul, ul li {
 .categories li.selected a {
     color: yellow;
 }
-
 
 .news h5 {
     margin-bottom: 5px;
@@ -53,6 +55,7 @@ ul, ul li {
 
 .news p,
 .news a,
-.categories a {
-    font: 14px sans-serif, arial;
+.categories a,
+.info-link {
+    font: 12pt sans-serif, arial;
 }
