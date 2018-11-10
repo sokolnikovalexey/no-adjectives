@@ -7,7 +7,7 @@ import (
 	"html/template"
 	"log"
 	"net/http"
-	"no-adj-news/cmd"
+	"no-adjectives/cmd"
 	"strings"
 )
 
@@ -94,4 +94,3 @@ type NewsFeedItem struct {
 	Description string
 	Link        string
 }
-
