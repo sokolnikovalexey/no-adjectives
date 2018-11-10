@@ -19,7 +19,7 @@ func main() {
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 	http.HandleFunc("/fetch-news", fetchNewsRouterHandler)
 	http.HandleFunc("/fetch-categories", fetchCategoriesRouterHandler)
-	err := http.ListenAndServe(":3000", nil)
+	err := http.ListenAndServe(":3001", nil)
 	if err != nil {
 		log.Println("can't start server")
 	}
